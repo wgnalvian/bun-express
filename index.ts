@@ -16,7 +16,7 @@ res.json({ status: 'ok', uptime: process.uptime() });
 
 
 app.use((req: Request, res: Response) => {
-res.status(404).json({ message: 'Not found' });
+res.status(404).json({ message: 'Hello World' });
 });
 
 
